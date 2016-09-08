@@ -20,7 +20,7 @@ app.use(require('morgan')('dev'));
 
 // Angular Route //
 app.get('/*', function(req, res) {
-  res.sendFile(path.join(__dirname '/public/index.html'));
+  res.sendFile(path.join(__dirname, '/public/index.html'));
 });
 
 // Add Backend API Routes Here //
