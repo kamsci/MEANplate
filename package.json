@@ -1,0 +1,26 @@
+{
+  "name": "MEANplate",
+  "version": "1.0.0",
+  "description": "Template for a MEAN stack app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamsci/MEANplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kamsci/MEANplate/issues"
+  },
+  "homepage": "https://github.com/kamsci/MEANplate#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.6.0",
+    "morgan": "^1.7.0"
+  }
+}
